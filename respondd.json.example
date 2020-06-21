@@ -1,0 +1,19 @@
+{
+	"directory"	: "./providers", 
+	"link_group" : "ff02::2:1001",
+	"site_group" : "ff05::2:1001", 
+	"port"	: 1001,
+	"mcast_ifaces"	: [ "bat8", "bat10", "bat13", "bat14", "bat15" ],
+	"batadv_ifaces"	: [ "bat8", "bat10", "bat13", "bat14", "bat15" ] ,
+	"mesh_ipv4"	: "",
+	"site_code"	: "su-su",
+	"domain_code"	: "dom15",
+	"domaincodes": {
+        "bat8": "dom8",
+        "bat10": "dom10",
+        "bat13": "dom13",
+        "bat14": "dom14",
+        "bat15": "dom15"
+    },
+	"node_id"	: "42"
+}
